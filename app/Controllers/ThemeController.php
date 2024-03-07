@@ -69,7 +69,6 @@ class ThemeController extends BaseController
             'listjenis' => $listjenis
         ];
 
-        // die(json_encode($data));
         return view('theme/edit', $data);
     }
 
@@ -87,18 +86,8 @@ class ThemeController extends BaseController
             $model->update($data['id'], $update);
         } catch (\Throwable $e){
             return redirect()->to('/theme/edit/'.$data['id'])->with('error', $e->getMessage());
-            // return view('theme/edit', [
-            //     'status' => 'error',
-            //     'msg' => $e->getMessage(),
-            //     'data' =>  $model->find($data['id'])
-            // ]);
         }
         return redirect()->to('/theme/edit/'.$data['id'])->with('success', 'Berhasil update data');
-        // return view('theme/edit', [
-        //     'status' => 'success',
-        //     'msg' => 'Berhasil update', 
-        //     'data' => $model->find($data['id'])
-        // ]);
     }
 
     public function saveDelete($id){

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?= $this->include('adminlayout/headerasset'); ?>
-    <title>kuinvite :: home</title>
+    <title>kuinvite :: admin</title>
 </head>
 
 <body>
