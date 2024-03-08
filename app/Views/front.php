@@ -18,22 +18,23 @@
             <a class="navbar-brand" href="#">
                 <h1 class="brand-logo">kuinvite</h1>
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link navbar-item-kuinvite active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link navbar-item-kuinvite active" aria-current="page" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link navbar-item-kuinvite" href="#">Features</a>
+                        <a class="nav-link navbar-item-kuinvite" href="#features">Features</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link navbar-item-kuinvite" href="#">Design</a>
+                        <a class="nav-link navbar-item-kuinvite" href="#design">Design</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link navbar-item-kuinvite" href="#">Pricing</a>
+                        <a class="nav-link navbar-item-kuinvite" href="#pricing">Pricing</a>
                     </li>
                     <li class="nav-item navbar-item-kuinvite-login">
                         <a class="nav-link" href="/admin">Login</a>
@@ -43,13 +44,14 @@
         </div>
     </nav>
 
-    <section class="section-home" id="section-home">
+    <section class="section-home page-section" id="home">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 section-home-img">
                     <div class="row">
                         <div class="col-md-8">
-                            <img class="img-banner rotate-right" src="<?= base_url('assets/images/front/front_wedding1.jpg') ?>" alt="">
+                            <img class="img-banner rotate-right"
+                                src="<?= base_url('assets/images/front/front_wedding1.jpg') ?>" alt="">
                         </div>
                         <div class="col-md-4">
                         </div>
@@ -57,10 +59,12 @@
                     <br>
                     <div class="row">
                         <div class="col-md-4">
-                            <img class="img-banner rotate-right" src="<?= base_url('assets/images/front/front_birthday2.jpg') ?>" alt="">
+                            <img class="img-banner rotate-right"
+                                src="<?= base_url('assets/images/front/front_birthday2.jpg') ?>" alt="">
                         </div>
                         <div class="col-md-6">
-                            <img class="img-banner rotate-left" src="<?= base_url('assets/images/front/front_event1.jpg') ?>" alt="">
+                            <img class="img-banner rotate-left"
+                                src="<?= base_url('assets/images/front/front_event1.jpg') ?>" alt="">
                         </div>
                         <div class="col-md-2">
                         </div>
@@ -73,21 +77,71 @@
                                 <h2 class="pacifico text-grey">
                                     Buat undangan digital mu di segalah event
                                 </h2>
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non vitae ullam numquam, doloremque eaque pariatur ut molestias vel error laudantium at eos ipsa autem animi aut quasi qui magni ratione?
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non vitae ullam numquam,
+                                doloremque eaque pariatur ut molestias vel error laudantium at eos ipsa autem animi aut
+                                quasi qui magni ratione?
                             </div>
                             <br>
                             <button class="btn btn-get-started">
-                                    Get Started
+                                Get Started
                             </button>
                         </div>
                     </div>
                 </div>
             </div>
-
+        </div>
+    </section>
+    <section class="section-feature page-section" id="features">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div>
+                        <h2 class="pacifico text-grey">
+                            Section Feature
+                        </h2>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non vitae ullam numquam,
+                        doloremque eaque pariatur ut molestias vel error laudantium at eos ipsa autem animi aut
+                        quasi qui magni ratione?
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-design page-section" id="design">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div>
+                        <h2 class="pacifico text-grey">
+                            Section Design
+                        </h2>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non vitae ullam numquam,
+                        doloremque eaque pariatur ut molestias vel error laudantium at eos ipsa autem animi aut
+                        quasi qui magni ratione?
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-pricing page-section" id="pricing">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div>
+                        <h2 class="pacifico text-grey">
+                            Section Pricing
+                        </h2>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non vitae ullam numquam,
+                        doloremque eaque pariatur ut molestias vel error laudantium at eos ipsa autem animi aut
+                        quasi qui magni ratione?
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 </body>
 <script src="<?= base_url('assets/js/jquery.min.js') ?>"></script>
 <script src="<?= base_url('assets/bootstrap5/js/bootstrap.min.js') ?>"></script>
+<script src="<?= base_url('assets/js/custome.js') ?>"></script>
 
 </html>

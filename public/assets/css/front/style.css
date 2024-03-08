@@ -34,6 +34,11 @@
     border-bottom: solid 1px #ed5cac !important;
 }
 
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: var(--bs-navbar-active-color);
+    border-bottom: solid 3px #ed5cac !important;
+}
+
 .navbar-item-kuinvite-login {
     padding-right: 10px;
     padding-left: 10px;
@@ -90,6 +95,24 @@
 .section-home {
     height: 100vh;
     width: 100%;
+}
+
+.section-feature {
+    height: 100vh;
+    width: 100%;
+    padding-top: 100px;
+}
+
+.section-design {
+    height: 100vh;
+    width: 100%;
+    padding-top: 100px;
+}
+
+.section-pricing {
+    height: 100vh;
+    width: 100%;
+    padding-top: 100px;
 }
 
 .img-banner {
