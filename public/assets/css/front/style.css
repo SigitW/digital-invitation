@@ -46,8 +46,10 @@
 }
 
 .navbar-item-kuinvite-login:hover {
-    box-shadow: 20px 20px 60px #bebebe,
-        -20px -20px 60px #ffffff;
+    transform: translateY(-5px);
+    box-shadow: 1px 20px 56px -8px rgba(0, 0, 0, 0.52);
+    -webkit-box-shadow: 1px 20px 56px -8px rgba(0, 0, 0, 0.52);
+    -moz-box-shadow: 1px 20px 56px -8px rgba(0, 0, 0, 0.52);
     transition: 0.5s;
 }
 
@@ -97,6 +99,12 @@
     -moz-box-shadow: 1px 20px 56px -20px rgba(0, 0, 0, 0.52);
     border-radius: 10px;
 }
+
+.img-banner:hover {
+   transform:rotateZ(5deg);
+   transition: 0.5s;
+}
+
 
 @media (max-width : 825px) {
     .section-home-img {
