@@ -6,6 +6,8 @@ use CodeIgniter\Router\RouteCollection;
  * @var RouteCollection $routes
  */
 $routes->get('/', 'Home::index');
+$routes->get('/home', 'Home::home');
+$routes->get('/admin', 'Home::admin');
 $routes->get('/welcome', 'Home::welcome');
 
 $routes->get('/themetype', 'JenisThemeController::index');
