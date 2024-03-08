@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-light bg-white">
+    <nav class="navbar fixed-top navbar-expand-lg bg-light bg-white">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <h1 class="brand-logo">kuinvite</h1>
@@ -49,7 +49,7 @@
                 <div class="col-md-6 section-home-img">
                     <div class="row">
                         <div class="col-md-8">
-                            <img class="img-banner" src="<?= base_url('assets/images/front/front_wedding1.jpg') ?>" alt="">
+                            <img class="img-banner rotate-right" src="<?= base_url('assets/images/front/front_wedding1.jpg') ?>" alt="">
                         </div>
                         <div class="col-md-4">
                         </div>
@@ -57,10 +57,10 @@
                     <br>
                     <div class="row">
                         <div class="col-md-4">
-                            <img class="img-banner" src="<?= base_url('assets/images/front/front_birthday2.jpg') ?>" alt="">
+                            <img class="img-banner rotate-right" src="<?= base_url('assets/images/front/front_birthday2.jpg') ?>" alt="">
                         </div>
                         <div class="col-md-6">
-                            <img class="img-banner" src="<?= base_url('assets/images/front/front_event1.jpg') ?>" alt="">
+                            <img class="img-banner rotate-left" src="<?= base_url('assets/images/front/front_event1.jpg') ?>" alt="">
                         </div>
                         <div class="col-md-2">
                         </div>
