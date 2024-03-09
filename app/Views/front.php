@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="<?= base_url('assets/bootstrap5/css/bootstrap.min.css') ?>">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Pacifico&family=Comfortaa&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="<?= base_url('assets/css/front/style.css') ?>">
     <title>kuinvite</title>
 </head>
@@ -18,8 +19,7 @@
             <a class="navbar-brand" href="#">
                 <h1 class="brand-logo">kuinvite</h1>
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
@@ -50,8 +50,7 @@
                 <div class="col-md-6 section-home-img">
                     <div class="row">
                         <div class="col-md-8">
-                            <img class="img-banner rotate-right"
-                                src="<?= base_url('assets/images/front/front_wedding1.jpg') ?>" alt="">
+                            <img class="img-banner rotate-right" src="<?= base_url('assets/images/front/front_wedding1.jpg') ?>" alt="">
                         </div>
                         <div class="col-md-4">
                         </div>
@@ -59,12 +58,10 @@
                     <br>
                     <div class="row">
                         <div class="col-md-4">
-                            <img class="img-banner rotate-right"
-                                src="<?= base_url('assets/images/front/front_birthday2.jpg') ?>" alt="">
+                            <img class="img-banner rotate-right" src="<?= base_url('assets/images/front/front_birthday2.jpg') ?>" alt="">
                         </div>
                         <div class="col-md-6">
-                            <img class="img-banner rotate-left"
-                                src="<?= base_url('assets/images/front/front_event1.jpg') ?>" alt="">
+                            <img class="img-banner rotate-left" src="<?= base_url('assets/images/front/front_event1.jpg') ?>" alt="">
                         </div>
                         <div class="col-md-2">
                         </div>
@@ -77,13 +74,15 @@
                                 <h2 class="pacifico text-grey">
                                     Buat undangan digital mu di segalah event
                                 </h2>
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non vitae ullam numquam,
-                                doloremque eaque pariatur ut molestias vel error laudantium at eos ipsa autem animi aut
-                                quasi qui magni ratione?
+                                <div class="comfortaa">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non vitae ullam numquam,
+                                    doloremque eaque pariatur ut molestias vel error laudantium at eos ipsa autem animi aut
+                                    quasi qui magni ratione?
+                                </div>
                             </div>
                             <br>
                             <button class="btn btn-get-started">
-                                Get Started
+                                Buat Undangan
                             </button>
                         </div>
                     </div>
@@ -94,14 +93,79 @@
     <section class="section-feature page-section" id="features">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
-                    <div>
-                        <h2 class="pacifico text-grey">
-                            Section Feature
-                        </h2>
+                <div class="col-md-4">
+                    <h2 class="pacifico">
+                        Features
+                    </h2>
+                    <div class="">
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non vitae ullam numquam,
                         doloremque eaque pariatur ut molestias vel error laudantium at eos ipsa autem animi aut
                         quasi qui magni ratione?
+                    </div>
+                    <br>
+                </div>
+                <div class="col-md-8">
+                    <div class="row g-0">
+                        <div class="col-6 col-md-4 p-1">
+                            <div class="box-feature">
+                                <div class="box-feature-icon">
+                                    <i class="bi bi-wind"></i>
+                                </div>
+                                <div class="box-feature-text comfortaa">
+                                    Pembuatan Undangan Simple dan Cepat
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 p-1">
+                            <div class="box-feature">
+                                <div class="box-feature-icon">
+                                    <i class="bi bi-journal-bookmark"></i>
+                                </div>
+                                <div class="box-feature-text comfortaa">
+                                    Buku Tamu
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 p-1">
+                            <div class="box-feature">
+                                <div class="box-feature-icon">
+                                    <i class="bi bi-person-check"></i>
+                                </div>
+                                <div class="box-feature-text comfortaa">
+                                    Nama Tamu
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 p-1">
+                            <div class="box-feature">
+                                <div class="box-feature-icon">
+                                    <i class="bi bi-pin-map"></i>
+                                </div>
+                                <div class="box-feature-text comfortaa">
+                                    Penunjuk Lokasi
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 p-1">
+                            <div class="box-feature">
+                                <div class="box-feature-icon">
+                                    <i class="bi bi-clock-history"></i>
+                                </div>
+                                <div class="box-feature-text comfortaa">
+                                    Perhitungan Waktu Mundur
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 p-1">
+                            <div class="box-feature">
+                                <div class="box-feature-icon">
+                                    <i class="bi bi-file-earmark-music"></i>
+                                </div>
+                                <div class="box-feature-text comfortaa">
+                                    Background Music
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
