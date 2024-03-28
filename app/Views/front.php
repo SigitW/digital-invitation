@@ -43,7 +43,6 @@
             </div>
         </div>
     </nav>
-
     <section class="section-home page-section" id="home">
         <div class="container">
             <div class="row">
@@ -171,33 +170,73 @@
             </div>
         </div>
     </section>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#c31e69" fill-opacity="1" x="24" y="0" d="M0,160L40,144C80,128,160,96,240,101.3C320,107,400,149,480,149.3C560,149,640,107,720,101.3C800,96,880,128,960,144C1040,160,1120,160,1200,154.7C1280,149,1360,139,1400,133.3L1440,128L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path>
+    </svg>
     <section class="section-design page-section" id="design">
         <div class="container">
             <div class="row">
                 <div class="col-12">
                     <div>
-                        <h2 class="pacifico text-grey">
-                            Section Design
+                        <h2 class="pacifico text-grey text-center">
+                            Design
                         </h2>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non vitae ullam numquam,
-                        doloremque eaque pariatur ut molestias vel error laudantium at eos ipsa autem animi aut
-                        quasi qui magni ratione?
+                        <div class="text-center">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non vitae ullam numquam,
+                            doloremque eaque pariatur ut molestias vel error laudantium at eos ipsa autem animi aut
+                            quasi qui magni ratione?
+                        </div>
+                    </div>
+                    <div class="design-panel">
+                        <div class="row g-0">
+                            <div class="col-md-6 p-1">
+                                <div class="design-card"></div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="row g-0">
+                                    <div class="col-md-6 p-1">
+                                        <div class="design-card"></div>
+                                    </div>
+                                    <div class="col-md-6 p-1">
+                                        <div class="design-card"></div>
+                                    </div>
+                                    <div class="col-md-6 p-1">
+                                        <div class="design-card"></div>
+                                    </div>
+                                    <div class="col-md-6 p-1">
+                                        <div class="design-card"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="text-end">
+                        <a href="#" class="text-magenta">Lebih lengkap <i class="bi bi-arrow-right"></i> </a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#c31e69" fill-opacity="1" d="M0,224L40,224C80,224,160,224,240,240C320,256,400,288,480,282.7C560,277,640,235,720,234.7C800,235,880,277,960,293.3C1040,309,1120,299,1200,277.3C1280,256,1360,224,1400,208L1440,192L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path>
+    </svg>
     <section class="section-pricing page-section" id="pricing">
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div>
-                        <h2 class="pacifico text-grey">
+                    <div class="text-center">
+                        <h2 class="pacifico text-center">
                             Section Pricing
                         </h2>
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non vitae ullam numquam,
                         doloremque eaque pariatur ut molestias vel error laudantium at eos ipsa autem animi aut
                         quasi qui magni ratione?
+                    </div>
+                    <div class="pricing-panel">
+                        <div class="pricing-card">
+                            
+                        </div>
                     </div>
                 </div>
             </div>
